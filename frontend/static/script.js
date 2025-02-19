@@ -67,7 +67,7 @@ async function processTask() {
     productContainer.style.display = "none";
 
     try {
-        const response = await fetch("https://blinkit-gpt-backend.onrender.com/process-request/", {
+        const response = await fetch("https://blinkit-gpt-backend.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
